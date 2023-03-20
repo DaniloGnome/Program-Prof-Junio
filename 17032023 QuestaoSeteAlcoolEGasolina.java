@@ -35,9 +35,9 @@ public class QuestaoSeteAlcoolEGasolina {
 
    
         //------ agora tenho que verificar o tipo de combustível e calcular o valor total gasto para encher o tanque ------\\
-        //------ com isso tenho que criar uma vareavel para o preço do litro.------\\
+        //------ com isso tenho que criar uma variável para o preço do litro.------\\
 	
-		double precolitro; // vareavel do preço por litro
+		double precolitro; // variável do preço por litro
 		if (tipocombustivel .equals("G")) // aqui declaramos o .equals para comparacao ( tipo do combustivel é igual a G)
 		{
             precolitro = 3.79; // declaramos o preco da gasolina
@@ -50,8 +50,8 @@ public class QuestaoSeteAlcoolEGasolina {
         }
 	
 		
-	//------ criar uma vareavel para armazenar o valor por litro * a capacidade do tanque------\\
-        double valortotal = precolitro * capacidadetanque; // variavel com resultado da vareavel "precolitro" vezes a vareavel "capacidadetanque"
+	//------ criar uma variável para armazenar o valor por litro * a capacidade do tanque------\\
+        double valortotal = precolitro * capacidadetanque; // variavel com resultado da variável "precolitro" vezes a variável "capacidadetanque"
         System.out.println("O valor total gasto para encher o tanque será de R$ " + valortotal); // aqui temos uma calcatenação 
 
         sc.close(); // aqui fechamos o scanner
