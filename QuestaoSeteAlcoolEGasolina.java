@@ -10,31 +10,34 @@
 		//double precolitro;
 		//double valortotal;
 
-package exercicioaula17032023;
+package exercicioaula17032023; // pacote
 
-import java.util.Scanner;
+import java.util.Scanner; // importamos a classe Scanner sempre no começo do arquivo
 
 public class QuestaoSeteAlcoolEGasolina {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-		Scanner sc = new Scanner(System.in);
+		Scanner sc = new Scanner(System.in); // criando uma classe Scanner do tipo new
 		
 	
-		// tipo de combustível 
-	System.out.print("Informe o tipo de combustível (G - gasolina ou A - álcool): ");
-	String tipocombustivel = sc.nextLine();		// sera String, pois o tipo informado será nao numerico
+		//------ tipo de combustível ------\\
+	
+		System.out.print("Informe o tipo de combustível (G - gasolina ou A - álcool): ");
+	String tipocombustivel = sc.nextLine();		// sera nextLine(); para ler o tipo de dado enviado que será digitado -- String pois receberá uma Letra
 
         
-        // capacidade do tanque em litros
-        System.out.print("Informe a capacidade do tanque em litros: ");
-	double capacidadetanque = sc.nextDouble();
+        //------ capacidade do tanque em litros ------\\
+        
+		System.out.print("Informe a capacidade do tanque em litros: ");
+	double capacidadetanque = sc.nextDouble();    // sera nextDouble(); para ler o tipo de dado enviado que será digitado -- double pois receberá um numeral
 
    
-        // agora tenho que verifica o tipo de combustível e calcula o valor total gasto para encher o tanque
-        // com isso tenho que criar uma vareavel para o preço do litro.
-	double precolitro;
+        //------ agora tenho que verificar o tipo de combustível e calcular o valor total gasto para encher o tanque ------\\
+        //------ com isso tenho que criar uma vareavel para o preço do litro.------\\
+	
+		double precolitro; // vareavel do preço por litro
 		if (tipocombustivel .equals("G")) // aqui declaramos o .equals para comparacao ( tipo do combustivel é igual a G)
 		{
             precolitro = 3.79; // declaramos o preco da gasolina
@@ -45,8 +48,10 @@ public class QuestaoSeteAlcoolEGasolina {
             System.out.println("Tipo de combustível nao existente"); // aqui o tipo de combustivel digitado nao foi A e nem G.
             return; // o método "return;" é simplesmente encerrado, sem retornar nenhum valor.
         }
-
-        double valortotal = precolitro * capacidadetanque;
+	
+		
+	//------ criar uma vareavel para armazenar o valor por litro * a capacidade do tanque------\\
+        double valortotal = precolitro * capacidadetanque; // variavel com resultado da vareavel "precolitro" vezes a vareavel "capacidadetanque"
         System.out.println("O valor total gasto para encher o tanque será de R$ " + valortotal); // aqui temos uma calcatenção 
 
         sc.close(); // aqui fechamos o scanner
