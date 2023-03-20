@@ -46,13 +46,13 @@ public class QuestaoSeteAlcoolEGasolina {
             precolitro = 2.90; // declaramos o preço do alcool
         } else {
             System.out.println("Tipo de combustível nao existente"); // aqui o tipo de combustivel digitado nao foi A e nem G.
-            return; // o método "return;" é simplesmente encerrado, sem retornar nenhum valor.
+            return; // o método "return;" sem retornar nenhum valor.
         }
 	
 		
 	//------ criar uma vareavel para armazenar o valor por litro * a capacidade do tanque------\\
         double valortotal = precolitro * capacidadetanque; // variavel com resultado da vareavel "precolitro" vezes a vareavel "capacidadetanque"
-        System.out.println("O valor total gasto para encher o tanque será de R$ " + valortotal); // aqui temos uma calcatenção 
+        System.out.println("O valor total gasto para encher o tanque será de R$ " + valortotal); // aqui temos uma calcatenação 
 
         sc.close(); // aqui fechamos o scanner
 	}
