@@ -1,4 +1,4 @@
-// Questão 08. Faça um algoritmo que receba um número e diga se este número está no
+// QuestÃ£o 08. FaÃ§a um algoritmo que receba um nÃºmero e diga se este nÃºmero estÃ¡ no
 // intervalo entre 100 e 200.
 public class questao08encadeado {
 
