@@ -1,0 +1,22 @@
+import java.util.Scanner;
+
+public class multiplode3 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+ Scanner sc = new Scanner(System.in);
+ 
+ 
+ System.out.println("informe o numero ");
+ int numero =sc.nextInt();
+ 
+ if (numero % 3==0){
+System.out.println("é multiplo");
+ } else {
+	 System.out.println("nao é multiplo");
+ 		}
+
+ sc.close();
+	}
+
+}
