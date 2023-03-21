@@ -11,9 +11,9 @@ public class multiplode3 {
  int numero =sc.nextInt();
  
  if (numero % 3==0){
-System.out.println("é multiplo");
+System.out.println("Ã© multiplo");
  } else {
-	 System.out.println("nao é multiplo");
+	 System.out.println("nao Ã© multiplo");
  		}
 
  sc.close();
