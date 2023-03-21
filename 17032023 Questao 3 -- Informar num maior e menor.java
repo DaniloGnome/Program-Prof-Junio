@@ -22,8 +22,8 @@ public class lerdoisnumeroseinformeomaioremenor {
 		maior = numero2;
 		menor = numero1;
 	}
-	 System.out.println("O maior número é: " + maior);
-	 System.out.println("O menor número é: " + menor);
+	 System.out.println("O maior nÃºmero Ã©: " + maior);
+	 System.out.println("O menor nÃºmero Ã©: " + menor);
 	
 	sc.close();
 	}
