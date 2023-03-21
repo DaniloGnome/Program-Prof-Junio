@@ -1,3 +1,8 @@
+// Questão 02. leia dois valores inteiro distintos e informe qual é o maior e o menor.
+
+
+
+
 import java.util.Scanner;
 
 public class lerdoisnumeroseinformeomaioremenor {
