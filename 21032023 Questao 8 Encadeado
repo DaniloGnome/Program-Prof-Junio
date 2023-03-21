@@ -13,6 +13,8 @@ public class questao08encadeado {
 			} else {
 				System.out.println("falso");
 			}
+		}else {
+		System.out.println("falsinho viiiu");
 		}
 	}
 }
