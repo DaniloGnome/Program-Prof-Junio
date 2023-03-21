@@ -24,7 +24,7 @@ public class Joaopapodepescador {
 		System.out.print("Digite o Peso do peixe :"); // print para pedir o peso do peixe
 		double pesopeixe = sc.nextDouble(); // variavel do tipo double para armazenar o valor do peixe na memoria
 		
-		if (pesopeixe >= 50) { // se peixe é maior que o valor 50
+		if (pesopeixe > 50) { // se peixe é maior que o valor 50
 			double passoupeso = pesopeixe - 50; // variavel do tipo double, diminuimos por 50 e a sobra será o valor armazenado no double 'passoupeso' 
 			double pesopermitido = passoupeso * 4;// variavel do tipo double, e o que sera armazenado sera o resultado da variavel 'passoupeso' vezes 4 que é o valor da multa por kg
 		System.out.print("O peixe passou "+ passoupeso + "kg. O total da multa será : R$ " + df.format(pesopermitido)); // aqui temos, duas variaveis texto que sera impressa na tela e, usamos a formatacao df.format para a variavel 'pesopermitido'
